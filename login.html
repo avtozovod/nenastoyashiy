@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Log-IN</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 500" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet"/> <!-- icons //mandatory style//-->
+</head>
+<body>
+  <a href="index.html">home</a>
+<section class="user">
+  <div class="user_options-container">
+    <div class="user_options-text">
+      <div class="user_options-unregistered">
+        <h2 class="user_unregistered-title">У вас нет аккаунта?</h2>
+        <p class="user_unregistered-text">Вы можете зарегистрироваться у нас. После регистрации у вас появиться возможность оставлять комментарии, настраивать оповещения о новых статьях ваших любимых автров и разделов. Также в своем личном кабинете вы сможете подать заявку и стать нашим автором! </p>
+        <button class="user_unregistered-signup" id="signup-button">Регистрация</button>
+      </div>
+
+      <div class="user_options-registered">
+        <h2 class="user_registered-title">У вас уже есть аккаунт?</h2>
+        <p class="user_registered-text">Введите пожалуйста свои данные.</p>
+        <button class="user_registered-login" id="login-button">Войти</button>
+      </div>
+    </div>
+    
+    <div class="user_options-forms" id="user_options-forms">
+      <div class="user_forms-login">
+        <h2 class="forms_title">Вход</h2>
+        <form class="forms_form">
+          <fieldset class="forms_fieldset">
+            <div class="forms_field">
+              <input type="email" placeholder="Email" class="forms_field-input" required autofocus />
+            </div>
+            <div class="forms_field">
+              <input type="password" placeholder="Пароль" class="forms_field-input" required />
+            </div>
+          </fieldset>
+          <div class="forms_buttons">
+            <button type="button" class="forms_buttons-forgot">Забыли пароль?</button>
+            <input type="submit" value="Войти" class="forms_buttons-action">
+          </div>
+        </form>
+      </div>
+      <div class="user_forms-signup">
+        <h2 class="forms_title">Регистрация</h2>
+        <form class="forms_form">
+          <fieldset class="forms_fieldset">
+            <div class="forms_field">
+              <input type="text" placeholder="Имя" class="forms_field-input" required />
+            </div>
+            <div class="forms_field">
+              <input type="email" placeholder="Email" class="forms_field-input" required />
+            </div>
+            <div class="forms_field">
+              <input type="password" placeholder="Пароль" class="forms_field-input" required />
+            </div>
+          </fieldset>
+          <div class="forms_buttons">
+            <input type="submit" value="Зарегистрироваться" class="forms_buttons-action">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
